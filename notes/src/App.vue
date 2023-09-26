@@ -22,13 +22,11 @@ const addNote = () => {
     date: new Date(),
     backgroundColor: getRandomColor()
   })
+  
   showModal.value = false
   newNote.value = ""
   error.value = ""
 }
-
-
-
 
 </script>
 
